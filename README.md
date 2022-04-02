@@ -7,5 +7,5 @@ This is the GitHub repository for my [website](https://gamer-xyz.ml/)[![website]
 
 ---
 
-Check Out My Twitter [![twitter](https://api.iconify.design/ri:twitter-fill.svg?color=%231da1f2)][1]
+[Check Out My Twitter](https://twitter.com/itsgamerxyz) [![twitter](https://api.iconify.design/ri:twitter-fill.svg?color=%231da1f2)][1]
 
