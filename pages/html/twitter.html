@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Page Not Found</title>
+    <link rel="stylesheet" type="text/css" href="./404.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  
+  <div id="container">
+    <div class="content">
+      <a class="twitter-timeline" data-width="900" data-height="700" data-theme="dark" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://gamer-xyz.ml/">Back To Home</a>
+       </div>
+       </div>
+       <canvas id="Matrix"></canvas>
+    <script src="./index.js"></script>
+    
+       <script type="text/javascript">
+         var container = document.getElementById('container');
+         window.onmousemove = function(e){
+           var x = - e.clientX/5,
+               y = - e.clientY/5;
+               container.style.backgroundPositionX = x + 'px';
+               container.style.backgroundPositionY = y + 'px';
+         }
+       </script>
+       <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyCrcxXPGgoCZZh5vc_HLQnNFdHexfG8QgQ",
+          authDomain: "gamer-xyz-website.firebaseapp.com",
+          projectId: "gamer-xyz-website",
+          storageBucket: "gamer-xyz-website.appspot.com",
+          messagingSenderId: "257901950684",
+          appId: "1:257901950684:web:ede7d2187850f914666619",
+          measurementId: "G-2BKTYZSMHB"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

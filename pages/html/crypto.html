@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <title>Crypto</title>
+    <link rel="stylesheet" type="text/css" href="./crypto.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    
+  
+       </div>
+       </div>
+       <!--CoinMarketCap Widgets-->
+       <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,74,5426,2010,1839,52,5805" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+       <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,1839,3408,2010,5426,52,4172,74,6636,5805,4687" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+       <script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="26" data-ct-widget-theme="dark" data-ct-widget-size="large" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-category="bitcoin,ripple,bitcoin-regulation,altcoin,blockchain,ethereum,bitcoin-scams" data-ct-widget-language="en"></script>
+       <div class="btcwdgt-chart" btc="true" bw-noshadow="true"></div>
+       <canvas id="Matrix"></canvas>
+       <a class="btn" href="https://gamer-xyz.ml/" style="float:right">Back To Home<href>
+    <script src="./cryptonav.js"></script>
+    
+       <script type="text/javascript">
+         var container = document.getElementById('container');
+         window.onmousemove = function(e){
+           var x = - e.clientX/5,
+               y = - e.clientY/5;
+               container.style.backgroundPositionX = x + 'px';
+               container.style.backgroundPositionY = y + 'px';
+         }
+       </script>
+       <!--Bitcoin.com Script-->
+       <script>
+        (function(b,i,t,C,O,I,N) {
+          window.addEventListener('load',function() {
+            if(b.getElementById(C))return;
+            I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+            I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+          },false)
+        })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+      </script>
+      <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyCrcxXPGgoCZZh5vc_HLQnNFdHexfG8QgQ",
+          authDomain: "gamer-xyz-website.firebaseapp.com",
+          projectId: "gamer-xyz-website",
+          storageBucket: "gamer-xyz-website.appspot.com",
+          messagingSenderId: "257901950684",
+          appId: "1:257901950684:web:ede7d2187850f914666619",
+          measurementId: "G-2BKTYZSMHB"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+       
+       
+</body>
+</html>
+

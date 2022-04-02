@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta name="description" content="Through this page you can download files that Gamer-XyZ has made public, all files can be downloaded via Google Drive." />
+    <title>Files | Gamer-XyZ</title>
+    <link rel="stylesheet" type="text/css" href="./files.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  
+  <div id="container">
+    <div class="content">
+      <iframe src="https://drive.google.com/embeddedfolderview?id=1kUC-S_BLhdY9axVRlRan67L9VAiNQgjJ#grid" style="width: 500px; height:600px; border:0;"></iframe>
+
+      <a href="https://drive.google.com/drive/folders/1kUC-S_BLhdY9axVRlRan67L9VAiNQgjJ?usp=sharing">Download</a> 
+       </div>
+       </div>
+       <canvas id="Matrix"></canvas>
+       <!-- JS SCRIPT NOT REQUIRED FOR THIS PAGE
+    <script src="./index.js"></script>
+    
+    
+       <script type="text/javascript">
+         var container = document.getElementById('container');
+         window.onmousemove = function(e){
+           var x = - e.clientX/5,
+               y = - e.clientY/5;
+               container.style.backgroundPositionX = x + 'px';
+               container.style.backgroundPositionY = y + 'px';
+         }
+       </script> -->
+       <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyCrcxXPGgoCZZh5vc_HLQnNFdHexfG8QgQ",
+          authDomain: "gamer-xyz-website.firebaseapp.com",
+          projectId: "gamer-xyz-website",
+          storageBucket: "gamer-xyz-website.appspot.com",
+          messagingSenderId: "257901950684",
+          appId: "1:257901950684:web:ede7d2187850f914666619",
+          measurementId: "G-2BKTYZSMHB"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
