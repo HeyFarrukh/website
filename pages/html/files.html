@@ -16,19 +16,6 @@
        </div>
        </div>
        <canvas id="Matrix"></canvas>
-       <!-- JS SCRIPT NOT REQUIRED FOR THIS PAGE
-    <script src="./index.js"></script>
-    
-    
-       <script type="text/javascript">
-         var container = document.getElementById('container');
-         window.onmousemove = function(e){
-           var x = - e.clientX/5,
-               y = - e.clientY/5;
-               container.style.backgroundPositionX = x + 'px';
-               container.style.backgroundPositionY = y + 'px';
-         }
-       </script> -->
        <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
@@ -42,7 +29,7 @@
           measurementId: "G-2BKTYZSMHB"
         };
       
-        // Initialize Firebase
+      
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
       </script>
